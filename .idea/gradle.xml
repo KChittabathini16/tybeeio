@@ -8,6 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/android_sdk_3.3.2" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/sdk-proximity1.0.1" />
           </set>
