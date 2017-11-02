@@ -20,6 +20,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Tybee">
+        <meta-data
+            android:name="kontakt.io.API_KEY"
+            android:value="@string/kontakt_io_api_key" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +33,13 @@
         <service
             android:name="com.kontakt.sdk.android.ble.service.ProximityService"
             android:exported="false" />
+        <service
+            android:name="com.kontakt.proximity.service.MonitorService"
+            android:exported="false"/>
+
+        <service
+            android:name="com.kontakt.proximity.service.SyncService"
+            android:exported="false"/>
     </application>
 
 </manifest>

@@ -31,6 +31,6 @@ dependencies {
     compile 'com.google.code.gson:gson:2.8.2'
     compile 'com.squareup.retrofit2:retrofit:2.3.0'
     compile 'com.squareup.retrofit2:converter-gson:2.3.0'
-    implementation project(':android_sdk_3.3.2')
-    implementation project(':sdk-proximity1.0.1')
+    compile 'com.kontaktio:sdk:3.3.2'
+    compile 'com.kontaktio:sdk-proximity:1.0.1'
 }
